@@ -27,3 +27,8 @@ for(let color of colors){
     
     box.addEventListener('mouseover', printColor)
 }
+
+
+document.body.addEventListener('keypress', function(e){
+    console.log(e);
+})
