@@ -14,26 +14,27 @@
 //     console.log("No");
 // })
 
-// const question = function(){
-//     return yesOrNo = new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             const random = Math.random();
-//             if(random<0.5)
-//             resolve();
-        
-//             else
-//             reject();
-//         },5000)
-//     })
+// const question = function () {
+// 	return yesOrNo = new Promise((resolve, reject) => {
+// 		setTimeout(() => {
+// 			const random = Math.random();
+// 			if (random < 0.5)
+// 				resolve();
+
+// 			else
+// 				reject();
+// 		}, 4000)
+// 	})
 // }
 
 // question()
-//     .then(() => {
-//         console.log("Yes");
-//     })
-//     .catch(() => {
-//         console.log("No");
-//     })
+// 	.then(() => {
+// 		console.log("Yes");
+// 	})
+// 	.catch(() => {
+// 		console.log("No");
+// 	})
+
 
 //This is a FAKE Http Request Function
 //It takes 1 second to resolve or reject the promise, depending on the url that is passed in
